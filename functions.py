@@ -6,4 +6,4 @@ def sqlconnect:
     return
 
 
-def quary:
+def query:
