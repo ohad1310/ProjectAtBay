@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AtBay Employees | Adit Employee</title>
+</head>
+<body>
+    <center>
+    <H1>Edit the employee details</H1> <br>
+    <a href="/">Home</a>
+    <br>
+    <br>
+    <form method="POST" action="">
+    ID Number <input type="text" name="idnum" pattern="[0-9].{8,}" value="{{row.0}}"/> <br>
+    First Name <input type = "text" name="fname" pattern="[a-z].{1,}" value="{{row.1}}"/> <br>
+    Last Name <input type="text" name="lname" pattern="[a-z].{1,}" value="{{row.2}}"/> <br>
+    Email Address <input type="email" name = "email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" value="{{row.3}}"/> <br>
+    <br>
+    <input type = "submit" >
+    </center>
+</form>
+</body>
+</html>
+
