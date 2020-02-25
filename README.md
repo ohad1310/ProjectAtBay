@@ -1,4 +1,4 @@
-# ProjectAtBay
+# Python_Flask_CRUD
 
-This is for making CRUD operations on MySQL with Python and HTML in a docker environment.
+This is for making CRUD operations on MySQL with Python and Flask in a docker environment.
 
