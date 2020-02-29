@@ -46,7 +46,7 @@ def update(idnumber):
                UPDATE employees
                SET firstName=%s, lastName=%s, email=%s
                WHERE id=%s
-            """, (firstName, lastName, email, idnumber))
+            """, (idnumber, firstName, lastName, email))
         mysql.connection.commit()
         return render_template('edit-emp.html')
 

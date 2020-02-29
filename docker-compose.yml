@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+	mysql:
+		build: './docker/mysql'
+	python:
+		build: './docker/python'
